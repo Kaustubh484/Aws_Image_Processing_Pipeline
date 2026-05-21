@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# CDK
+cdk.out/
+
+# Environment files
+.env
+.env.test
+.env.local
+
+# TypeScript compiled output
+dist/
+*.js
+*.d.ts
+
+# Mac files
+.DS_Store
+
+# IDE
+.vscode/
