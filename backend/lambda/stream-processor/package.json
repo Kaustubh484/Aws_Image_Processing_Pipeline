@@ -12,6 +12,10 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.161",
+    "@types/node": "^25.9.1",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.1053.0"
   }
 }
