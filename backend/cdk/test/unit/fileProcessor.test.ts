@@ -78,7 +78,7 @@ describe('File Processor Lambda', () => {
     });
 
     it('should return error if inputText is missing', () => {
-      const inputText = '';
+      const inputText:string = '';
       const isValid = Boolean(inputText && inputText.trim());
       expect(isValid).toBe(false);
     });

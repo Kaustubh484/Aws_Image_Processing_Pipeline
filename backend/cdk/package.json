@@ -5,9 +5,17 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
+    "test:unit": "jest --testPathPatterns=unit",
+    "test:integration": "jest --testPathPatterns=integration",
+    "test:api": "jest --testPathPatterns=api",
     "cdk": "cdk"
   },
   "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1053.0",
+    "@aws-sdk/client-lambda": "^3.1053.0",
+    "@aws-sdk/client-s3": "^3.1053.0",
+    "@aws-sdk/lib-dynamodb": "^3.1053.0",
+    "@aws-sdk/s3-request-presigner": "^3.1053.0",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.10.1",
     "aws-cdk": "2.1122.0",
@@ -19,6 +27,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "^2.257.0",
-    "constructs": "^10.6.0"
+    "constructs": "^10.6.0",
+    "nanoid": "^5.1.11"
   }
 }
