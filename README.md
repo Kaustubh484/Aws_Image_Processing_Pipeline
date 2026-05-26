@@ -2,7 +2,6 @@
 
 Serverless ML inference pipeline powered by ResNet50 and AWS CDK.
 
-https://github.com/user-attachments/assets/78df90f2-ac2c-4691-b2a3-499c1e042045
 
 
 
@@ -22,6 +21,8 @@ https://github.com/user-attachments/assets/78df90f2-ac2c-4691-b2a3-499c1e042045
 ![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white)
 
 ---
+
+https://github.com/user-attachments/assets/78df90f2-ac2c-4691-b2a3-499c1e042045
 
 
 ## Table of Contents
