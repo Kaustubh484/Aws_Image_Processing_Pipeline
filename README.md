@@ -17,7 +17,6 @@ Serverless ML inference pipeline powered by ResNet50 and AWS CDK.
 
 ---
 
-**Live Demo:** [https://dv8q40y5ter7r.cloudfront.net/](https://dv8q40y5ter7r.cloudfront.net/)
 
 ## Table of Contents
 
