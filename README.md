@@ -2,6 +2,12 @@
 
 Serverless ML inference pipeline powered by ResNet50 and AWS CDK.
 
+https://github.com/user-attachments/assets/78df90f2-ac2c-4691-b2a3-499c1e042045
+
+
+
+
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
