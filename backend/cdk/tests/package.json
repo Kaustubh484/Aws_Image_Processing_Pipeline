@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "axios": "^1.16.1",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11"
+  }
+}

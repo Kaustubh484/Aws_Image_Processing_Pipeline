@@ -1,26 +1,21 @@
 {
   "name": "file-processor",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "@types/aws-lambda": "^8.10.161",
-    "@types/node": "^25.9.1",
-    "typescript": "^6.0.3"
+    "build": "tsc",
+    "deploy": "npm run build && cd ../lambda/file-processor && npm run build && cd ../stream-processor && npm run build && cd ../../cdk && cdk deploy"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.1051.0",
-    "@aws-sdk/client-ec2": "^3.1053.0",
-    "@aws-sdk/client-s3": "^3.1051.0",
-    "@aws-sdk/lib-dynamodb": "^3.1051.0",
-    "@aws-sdk/s3-request-presigner": "^3.1051.0",
-    "nanoid": "^5.1.11"
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/client-s3": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "@aws-sdk/s3-request-presigner": "^3.0.0",
+    "nanoid": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.0",
+    "@types/node": "^20.19.41",
+    "esbuild": "^0.28.0",
+    "typescript": "^5.0.0"
   }
 }
